@@ -1,0 +1,296 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape SHREYA PRADHAN} \\ \vspace{1pt}
+    Pune,Maharashtra \\ \vspace{1pt}
+    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-8287906784} ~} \href{}{\raisebox{-0.2\height}\faEnvelope\  \underline{shreyajk143@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/shreya-pradhan-685b3225a/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Shreya Pradhan}}  ~
+    \href{https://github.com/ShreyaPradhan07}{\raisebox{-0.2\height}\faGithub\ \underline{ShreyaPradhan07}} ~
+    \href{https://www.hackerrank.com/profile/Shreya97}{\raisebox{-0.2\height}\faHackerrank\ \underline{Shreya97}} ~
+    \href{https://codeforces.com/profile/Shreya17}{\raisebox{-0.2\height}\faPoll\ \underline{Shreya17}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arrmy Institute of Technology}{2022 -- 2026}
+      {BTech - \textbf{SGPA} - \textbf{9.05}}{Pune,India}
+  \resumeSubHeadingListEnd
+  
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ralli International School}{2018 -- 2019}
+      {CBSE  - \textbf{Percentage} - \textbf{96.8\%}}{Ghaziabad,Uttar Pradesh}
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ralli International School}{2020 -- 2021}
+      {CBSE  - \textbf{Percentage} - \textbf{96.6\%}}{Ghaziabad,Uttar Pradesh}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+
+\section{COURSEWORK / SKILLS}
+   $\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Data Structures \& Algorithms}} \hspace{1.6cm}\\
+$\sbullet[.75] \hspace{0.1cm}$ {\href{}{Competitive Programming}} \hspace{2.59cm}\\
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com} {Database Management System (DBMS)}}\\
+
+$\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{Object Oriented Programming (OOPS)}} \hspace{1cm}\\
+%$\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Basics of Network Programming and TCP/IP}} \hspace{2.6cm}\\
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{}{\textbf{\large{\underline{Airy Balloon
+}}} \href{https://github.com/ShreyaPradhan07/Airy-balloon-}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python,Tkinter,PGZrun}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{{The game provides an engaging experience where players must navigate obstacles and keep the balloon airborne.}}} 
+%             \resumeItem{\normalsize{\textbf{
+% }.}}
+        % \resumeItem{\textcolor{accent} {\href{https://github.com/ShreyaPradhan07/Airy-balloon-} {\underline{\normalsize{Live site here}}}}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\href{https://github.com/Muskan2508?tab=repositories}{\textbf{\large{\underline{Animal match}}} \href{https://github.com/Muskan2508/ANIMAL-MATCH/blob/main/README.md}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{GdScript,Godot}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{ {Computer Graphics mini-project where we have to find and match all pairs of identical animal cards within a grid of facedown cards.}}}
+            % \resumeItem{\textcolor{} {\href{} {\underline{\normalsize{}}}}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+          \resumeProjectHeading
+          {\href{https://github.com/ShreyaPradhan07/Star-Signs-Teller}{\textbf{\large{\underline{Star Signs Teller}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python,Tkinter}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{{The website accurately determines a person's zodiac sign and calculates their age using DateTime calculations.} }}
+            
+          \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+
+\vspace{-12pt}
+
+%
+
+
+%-----------EXPERIENCE-----------
+% \section{INTERNSHIP}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Intern Army \href{}{\raisebox{-0.1\height}\faExternalLink }}{Jan 2024 -- Feb 2024} 
+%       {\underline{C/C++}}{Remote}
+%       \resumeItemListStart
+%         \resumeItem{\normalsize{ \textbf{I have to complete 3 coding projects which will }}}
+  
+%       \resumeItemListEnd  
+%   \resumeSubHeadingListEnd
+% \vspace{-12pt}
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{C, C++,Python, SQL, HTML, CSS,  }} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{Visual Studio Code,GitHub,Figma}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{MySql,Firebase}} \\
+     \textbf{\normalsize{Operating Systems:}}{ \normalsize{Windows,Linux}} \\
+    }}
+    
+ \end{itemize}
+ \vspace{-15pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{EXTRACURRICULAR}
+    \resumeSubHeadingListStart
+        \resumeSubheading{AIT Technical Board
+        % \href{Certificate Proof link}{\raisebox{-0.1\height}\faExternalLink } 
+        }{2023 -- Present}{\underline{Joint Secretary }}{}
+            \resumeItemListStart
+                \resumeItem{\normalsize{\textbf
+                { Part of the organizing team of coding events in tech fest ”SOLUTIONS" thereby collaborating with different people for conducting the event successfully}}}
+                % \resumeItem{\normalsize{Participation Certificate. \href{ParticipationCertificateLink.com}{\raisebox{-0.1\height}\faExternalLink }}}
+            \resumeItemListEnd
+            \resumeSubHeadingListStart
+        \resumeSubheading{Debates and Dramatics Club
+        % \href{Certificate Proof link}{\raisebox{-0.1\height}\faExternalLink } 
+        }{2023 -- Present}{\underline{Member}}{}
+            \resumeItemListStart
+                \resumeItem{\normalsize{ \textbf
+                { Participated and organized in various debate competitions as I've honed good communication skills in English. }}}
+                % \resumeItem{\normalsize{Participation Certificate. \href{ParticipationCertificateLink.com}{\raisebox{-0.1\height}\faExternalLink }}}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+ \vspace{-11pt}
+ 
+ %-----------CERTIFICATIONS---------------
+\section{CERTIFICATIONS}
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://codedrills.io/contests/icpc-algoqueen-2024-prelims/scoreboard}{ICPC Algo Queen 2024, Rank-260(Round 1)}} \hspace{1.6cm}\\
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://codeforces.com/contests/with/Shreya17}{Codeforces Round 911(Div 2), Rank-5278}} \hspace{1.6cm}\\
+
+$\sbullet[.75] \hspace{0.2cm}${\href{https://codeforces.com/profile/Shreya17} {Codeforces 300+ Problems Solved,Maximum rating 1051}}\\
+
+$\sbullet[.75] \hspace{0.2cm}${\href{https://leetcode.com/Shreya95/}{Leetcode 200+ Problems Solved}} \hspace{1cm}\\
+$\sbullet[.75] \hspace{0.2cm}${\href{https://www.hackerrank.com/profile/Shreya97}{Hackkerank 5 Stars in Problem Solving}} \hspace{1cm}\\
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://unstop.com/certificate-preview/db03ce9e-6c93-4c71-8c41-233167ed50a9}{Partipated in Hero Campus Challenge Season 9 }} \hspace{2.6cm}\\
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://drive.google.com/file/d/19S3p_SBb-tnq6_ADBxC2eSqqBQ_Is4hA/view?usp=sharing}{Partipated in Algobash 2.0 organised by IIT Jammu }} \hspace{2.6cm}\\
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{TechFest organised gaming event for college}} \\
+
+\end{document}
