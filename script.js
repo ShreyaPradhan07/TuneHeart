@@ -28,7 +28,7 @@ const songs=[
     },
     {
         id:"6",
-        songName: 'on my way <br> <div class="subtitle">Alan Walker</div>',
+        songName: 'Bheegi si Bhaagi si <br> <div class="subtitle">Mohit Chauhan</div>',
         poster:"img/6.jpeg",
     },
     {
